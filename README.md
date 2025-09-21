@@ -125,20 +125,3 @@ El sistema expone endpoints con **Django REST Framework**:
 Cada endpoint soporta **CRUD completo** (listar, crear, editar, eliminar).  
 
 ---
-
-## 📸 Evidencias de Pruebas
-
-- Capturas del **admin** mostrando registros creados.
-- Pruebas en **Postman / navegador DRF** validando CRUD.  
-- Movimientos que actualizan stock correctamente.  
-- Intento de salida con más cantidad que el stock → rechazo validado.  
-- Histórico por producto funcionando.  
-
----
-
-## ✅ Conclusiones
-
-- La conexión con MySQL quedó correctamente configurada.  
-- El Admin de Django permite gestión completa de todas las entidades.  
-- Los endpoints implementan CRUD y validaciones de negocio (stock no negativo, SKU único).  
-- Se cumple la rúbrica al 100%.  
